@@ -5,11 +5,11 @@ import "./mynavbar.style.css";
 
 const Mynavbar = () => {
   return(
-    <>
+    <div>
       <Navbar fixed="top" collapseOnSelect expand="md"  variant="dark" className="animate-navbar nav-theme justify-content-between" >
-  <Navbar.Brand href="#home">
+  {/* <Navbar.Brand href="#home">
 
-  </Navbar.Brand>
+  </Navbar.Brand> */}
   <Navbar.Toggle aria-controls="responsive-navbar-nav" />
   <Navbar.Collapse id="responsive-navbar-nav">
     <Nav className="ml-auto">
@@ -25,7 +25,7 @@ const Mynavbar = () => {
   </Navbar.Collapse>
 </Navbar>
 
-    </>
+    </div>
   );
 }
 

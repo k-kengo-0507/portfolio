@@ -3,9 +3,9 @@ import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import "./about.styles.css";
-// import Profile from "../../assets/img/profile/profile.webp";
+import Profile from "../../assets/img/profile/profile.webp";
 import Image from "react-bootstrap/Image";
-import Button from "react-bootstrap/Button";
+// import Button from "react-bootstrap/Button";
 
 const About = () => {
   return (
@@ -16,7 +16,7 @@ const About = () => {
           <Row className="pt-3 pb-5 align-items-center">
             <Col xs={12} md={6}>
               <Row className="justify-content-center mb-2 mr-2 ">
-                {/* <Image className="profile justify-content-end" alt="profile" src={Profile} thumbnail fluid /> */}
+                <Image className="profile justify-content-end" alt="profile" src={Profile} thumbnail fluid />
               </Row>
             </Col>
             <Col xs={12} md={6}>
@@ -31,10 +31,6 @@ const About = () => {
                 From now on, I would like to connect with many people through programming and move forward in my life.
                 <br /> <br />
                 <Col className="d-flex justify-content-center flex-wrap">
-                  
-                  
-                  
-                  
                 </Col>
               </Row>
             </Col>
