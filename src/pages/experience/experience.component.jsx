@@ -26,7 +26,7 @@ const Experience = () => {
 
   <Card.Body>
     <Card.Text>
-      2013年　　通信販売一次代理店　　入社　営業部配属（5年半経験）
+      2013年　　通信販売一次代理店　　入社　営業部配属（5年半経験）　　
     </Card.Text>
   </Card.Body>
 
