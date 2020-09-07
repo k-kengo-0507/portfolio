@@ -2,11 +2,13 @@ import React from 'react';
 import './App.css';
 import About from "./pages/about/about.component";
 import Skills from "./pages/skills/skills.component";
+import Experience from "./pages/experience/experience.component";
 import MyNavbar from "./componnents/my-navbar/mynavbar.component";
 import MyCarousal from "./componnents/my-carousal/my-carousal.component";
 import TitleMessage from './componnents/title-message/title-message.component';
 import Container from "react-bootstrap/Container";
 import Slide from "react-reveal/Slide";
+import Fade from "react-reveal/Fade";
 
 const App = () => {
   return (
@@ -21,7 +23,16 @@ const App = () => {
           <hr />
             <Skills />
             </Slide>
-      </Container> 
+      </Container>
+      <div>
+        <Container className="container-box rounded">
+          <Fade duration={500}>
+            <hr />
+
+            <Experience />
+          </Fade>
+        </Container>
+      </div> 
       </div>
     </div>
   );
