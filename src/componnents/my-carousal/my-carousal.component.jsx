@@ -35,6 +35,6 @@ const MyCarousal = () => {
           <ScrollDown />
     </div>
   );
-}
+};
 
 export default MyCarousal

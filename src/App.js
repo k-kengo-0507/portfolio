@@ -9,6 +9,7 @@ import TitleMessage from './componnents/title-message/title-message.component';
 import Container from "react-bootstrap/Container";
 import Slide from "react-reveal/Slide";
 import Fade from "react-reveal/Fade";
+import Projects from "./componnents/projects/project.component";
 
 const App = () => {
   return (
@@ -32,10 +33,18 @@ const App = () => {
             <Experience />
           </Fade>
         </Container>
+        <div>
+        <Container className="container-box rounded">
+        <Slide bottom duration={500}>
+          <hr />
+          <Projects />
+        </Slide>
+      </Container>
+      </div>
       </div> 
       </div>
     </div>
   );
-}
+};
 
 export default App;

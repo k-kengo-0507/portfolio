@@ -27,6 +27,6 @@ const ScrollDown = () => {
       </div>
     </MyScroll>
   );
-}
+};
 
 export default ScrollDown;
