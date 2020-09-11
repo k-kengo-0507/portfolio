@@ -10,6 +10,7 @@ import Container from "react-bootstrap/Container";
 import Slide from "react-reveal/Slide";
 import Fade from "react-reveal/Fade";
 import Projects from "./componnents/projects/project.component";
+import ContactForm from "./pages/contact-form/contact-form.component";
 
 const App = () => {
   return (
@@ -20,14 +21,14 @@ const App = () => {
           <About />
           <div>
           <Container className="container-box rounded">
-        <Slide bottom duration={500}>
+        <Slide bottom duration={1500}>
           <hr />
             <Skills />
             </Slide>
       </Container>
       <div>
         <Container className="container-box rounded">
-          <Fade duration={500}>
+          <Fade duration={1500}>
             <hr />
 
             <Experience />
@@ -35,10 +36,16 @@ const App = () => {
         </Container>
         <div>
         <Container className="container-box rounded">
-        <Slide bottom duration={500}>
+        <Slide bottom duration={1500}>
           <hr />
           <Projects />
         </Slide>
+      </Container>
+      <Container className="container-box rounded">
+        <Fade duration={1500}>
+          <hr />
+          <ContactForm />
+        </Fade>
       </Container>
       </div>
       </div> 
