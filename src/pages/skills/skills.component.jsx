@@ -61,7 +61,7 @@ const Skills = () => {
               <Card.Text className="card-text d-flex justify-content-start flex-column">
                 {skills.Database.map((skill, index) => (
                   <span className="p-2" key={index}>
-                      <Image src={skill.imgSrc} alt={skill.imgAltText} rounded className="image-style m-1"></Image> {skill.skillName}
+                      <Image src={skill.imgSrc} alt={skill.imgAltText} rounded className="image-style m-1"></Image> <span className="f-size">{skill.skillName}</span>
                   </span>
                 ))}
               </Card.Text>
@@ -77,7 +77,7 @@ const Skills = () => {
               <Card.Text className="card-text d-flex justify-content-start flex-column">
                 {skills.hostingPlatform.map((skill, index) => (
                   <span className="p-2" key={index}>
-                      <Image src={skill.imgSrc} alt={skill.imgAltText} rounded className="image-style m-1"></Image> {skill.skillName}
+                      <Image src={skill.imgSrc} alt={skill.imgAltText} rounded className="image-style m-1"></Image> <span className="f-size">{skill.skillName}</span>
                   </span>
                 ))}
               </Card.Text>

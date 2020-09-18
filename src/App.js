@@ -11,6 +11,7 @@ import Slide from "react-reveal/Slide";
 import Fade from "react-reveal/Fade";
 import Projects from "./componnents/projects/project.component";
 import ContactForm from "./pages/contact-form/contact-form.component";
+import FooterPanel from "./componnents/footer/footer.component"
 
 const App = () => {
   return (
@@ -20,35 +21,36 @@ const App = () => {
         <TitleMessage />
           <About />
           <div>
-          <Container className="container-box rounded">
-        <Slide bottom duration={1500}>
-          <hr />
-            <Skills />
-            </Slide>
-      </Container>
+            <Container className="container-box rounded">
+              <Slide bottom duration={1500}>
+                <hr />
+                  <Skills />
+                   </Slide>
+            </Container>
       <div>
         <Container className="container-box rounded">
           <Fade duration={1500}>
             <hr />
-
             <Experience />
+              </Fade>
+        </Container>
+      <div>
+        <Container className="container-box rounded">
+          <Slide bottom duration={1500}>
+            <hr />
+            <Projects />
+          </Slide>
+        </Container>
+        <Container className="container-box rounded">
+          <Fade duration={1500}>
+            <hr />
+            <ContactForm />
           </Fade>
         </Container>
-        <div>
-        <Container className="container-box rounded">
-        <Slide bottom duration={1500}>
-          <hr />
-          <Projects />
-        </Slide>
-      </Container>
-      <Container className="container-box rounded">
-        <Fade duration={1500}>
-          <hr />
-          <ContactForm />
-        </Fade>
-      </Container>
-      </div>
-      </div> 
+          <hr />  
+           <FooterPanel />
+         </div>
+        </div> 
       </div>
     </div>
   );

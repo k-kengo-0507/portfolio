@@ -13,25 +13,25 @@ const ContactForm = () => {
         <Row>
           <Col className="d-flex justify-content-center flex-wrap">
             <div className="m-2">
-              <a href="" target="_blank" rel="noopener noreferrer">
+              {/* <a href="" target="_blank" rel="noopener noreferrer"> */}
                 <Button variant="outline-danger" title="">
                   <i className="fas fa-envelope-square"></i> Email Me
                 </Button>
-              </a>
+              {/* </a> */}
             </div>
             <div className="m-2">
-              <a href="" target="_blank" rel="noopener noreferrer">
+              {/* <a href="" target="_blank" rel="noopener noreferrer"> */}
                 <Button variant="outline-primary" title="">
                   <i className="fab fa-facebook-square"></i> FaceBook
                 </Button>
-              </a>
+              {/* </a> */}
             </div>
             <div className="m-2">
-              <a href="" target="_blank" rel="noopener noreferrer">
+              {/* <a href="" target="_blank" rel="noopener noreferrer"> */}
                 <Button variant="outline-info" title="">
                   <i className="fab fa-twitter"></i> Twitter
                 </Button>
-              </a>
+              {/* </a> */}
             </div>
           </Col>
         </Row>
