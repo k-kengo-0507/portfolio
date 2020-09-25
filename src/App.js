@@ -22,27 +22,28 @@ const App = () => {
           <About />
           <div>
             <Container className="container-box rounded">
-              <Slide bottom duration={1500}>
+              <Slide bottom duration={1200}>
                 <hr />
                   <Skills />
                    </Slide>
             </Container>
-      <div>
+      
         <Container className="container-box rounded">
-          <Fade duration={1500}>
+          <Fade duration={1200}>
             <hr />
             <Experience />
               </Fade>
         </Container>
       <div>
+      <div>
         <Container className="container-box rounded">
-          <Slide bottom duration={1500}>
+          <Slide bottom duration={1200}>
             <hr />
             <Projects />
           </Slide>
         </Container>
         <Container className="container-box rounded">
-          <Fade duration={1500}>
+          <Fade duration={1200}>
             <hr />
             <ContactForm />
           </Fade>
